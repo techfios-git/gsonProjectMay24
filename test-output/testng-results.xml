@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-15T11:27:57 CST" name="Suite" finished-at="2024-12-15T11:29:06 CST" duration-ms="69013">
+    <groups>
+      <group name="regression">
+        <method signature="AddCustomerTest.validUserShouldBeAbleToAddCustomer()[pri:0, instance:test.AddCustomerTest@47d9a273]" name="validUserShouldBeAbleToAddCustomer" class="test.AddCustomerTest"/>
+        <method signature="LoginTest.testRegression()[pri:0, instance:test.LoginTest@36916eb0]" name="testRegression" class="test.LoginTest"/>
+        <method signature="LoginTest.validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@36916eb0]" name="validUserShouldBeAbleToLogin" class="test.LoginTest"/>
+        <method signature="LoginTest.validateAlertMessages()[pri:0, instance:test.LoginTest@36916eb0]" name="validateAlertMessages" class="test.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@36916eb0]" name="validUserShouldBeAbleToLogin" class="test.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-12-15T11:27:57 CST" name="Test" finished-at="2024-12-15T11:29:06 CST" duration-ms="69013">
+      <class name="test.AddCustomerTest">
+        <test-method signature="validUserShouldBeAbleToAddCustomer()[pri:0, instance:test.AddCustomerTest@47d9a273]" started-at="2024-12-15T11:28:11 CST" name="validUserShouldBeAbleToAddCustomer" finished-at="2024-12-15T11:29:06 CST" duration-ms="54398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToAddCustomer -->
+      </class> <!-- test.AddCustomerTest -->
+      <class name="test.LoginTest">
+        <test-method signature="testRegression()[pri:0, instance:test.LoginTest@36916eb0]" started-at="2024-12-15T11:27:57 CST" name="testRegression" finished-at="2024-12-15T11:27:57 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegression -->
+        <test-method signature="validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@36916eb0]" started-at="2024-12-15T11:27:57 CST" name="validUserShouldBeAbleToLogin" finished-at="2024-12-15T11:28:09 CST" duration-ms="11750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+        <test-method signature="validateAlertMessages()[pri:0, instance:test.LoginTest@36916eb0]" started-at="2024-12-15T11:28:09 CST" name="validateAlertMessages" finished-at="2024-12-15T11:28:11 CST" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAlertMessages -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
